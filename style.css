@@ -20,14 +20,20 @@ nav {
     text-decoration: underline;
 }
 
-.jumbotron {
-    height: 25rem;
-}
-
 .jumbotron h2 {
     font-size: 1.5rem;
 }
 
-.content img {
-    height: 15rem;
+.collage {
+    height: 10rem;
+}
+
+#video-info div {
+    height: 20rem;
+}
+
+@media screen and (max-width: 576px) {
+    .jumbotron h3 {
+        font-size: 1rem;
+    }
 }
