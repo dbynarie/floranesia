@@ -24,16 +24,61 @@ nav {
     font-size: 1.5rem;
 }
 
-.collage {
-    height: 10rem;
+#pengertian div.image {
+    width: 25%;
+}
+
+#pengertian div.content {
+    width: 75%;
+}
+
+#pengertian img {
+    max-width: 100%;
+}
+
+#pengertian h3 {
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 #video-info div {
     height: 20rem;
 }
 
+#contactForm {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contactForm .form-label {
+    font-weight: bold;
+}
+
+#contactForm .form-control {
+    margin-bottom: 1rem;
+}
+
+#contactForm .btn {
+    background-color: #47cc47;
+    border: none;
+}
+
+#contactForm .btn:hover {
+    background-color: #39b139;
+}
+
+.profiles td,
+.profiles th {
+    padding: .2rem .5rem;
+}
+
 @media screen and (max-width: 576px) {
-    .jumbotron h3 {
+    .jumbotron h2 {
         font-size: 1rem;
+    }
+
+    #pengertian div.image,
+    #pengertian div.content {
+        width: 100%;
     }
 }
